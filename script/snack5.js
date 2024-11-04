@@ -6,11 +6,12 @@ Chiedi per 6 volte all'utente di inserire un numero,
 se è  dispari inseriscilo nell'array
 */
 
+console.log("Inserimento numeri dispari in array");
 // inizializzazione array vuoto
 const array = [];
 
 for (let i = 0; i < 6; i++) {
-  let numero = parseFloat(prompt("Numeri inseriti finora: " 
+  let numero = parseInt(prompt("Numeri inseriti finora: " 
     + i + "\nInserisci un numero"));
   while (isNaN(numero)) {
     numero = parseInt(prompt("Numeri inseriti finora: " 
