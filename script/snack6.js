@@ -4,7 +4,7 @@
 Stampa il cubo dei primi N numeri, 
 dove N è un numero indicato dall'utente
 */
-
+console.log("Stampa il cubo dei primi N numeri");
 let n;
 do {
   n = Math.floor(parseInt(prompt("Inserisci un numero positivo valido")));
